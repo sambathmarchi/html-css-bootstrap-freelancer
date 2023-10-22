@@ -1,0 +1,127 @@
+:root {
+    --primary-background-color: #1ABC9C;
+    --primary-color: white;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_bars {
+    color: lightgrey;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+#jumbo {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+    padding-top: 7rem; 
+}
+
+.me_display {
+    display: none;
+}
+
+.me_list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.avatar {
+    width: 20%;
+}
+
+.my_line {
+    width: 10rem;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#portfolio .my_line,
+#contact .my_line {
+    border-color: black;
+}
+
+#about {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color)
+}
+
+.btn_about {
+    color: white;
+    border: 1px solid white;
+}
+
+.dotted {
+    width: 100%;
+    border: 1px dotted lightgray;
+}
+
+.btn_contact {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+}
+
+
+#find-us {
+    color: var(--primary-color);
+    background-color: #3A546D;
+}
+
+.my_find_height {
+    height: 3rem;
+}
+
+.my_round {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 80%;
+}
+
+#copyright {
+    background-color: #2C3E50;
+    color: white;
+    font-size: 14px;
+}
+
+footer span {
+ color: var(--primary-background-color);
+}
+
+
+@media only screen and (min-width:576px) {
+
+    .me_list {
+        display: none;
+    }
+
+    .me_display {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
